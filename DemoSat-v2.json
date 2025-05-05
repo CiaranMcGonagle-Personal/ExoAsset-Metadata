@@ -1,7 +1,7 @@
 {
   "name":        "DemoSat-1",
-   "description": "Ownership interest in DemoSat-1 satellite (ERC-721 ExoAsset)",
-   "image":       "https://ciaranmcgonagle-personal.github.io/ExoAsset-Metadata/ExoLedger%20-%20DemoSat%20-%20ImageCard.png",
+  "description": "Ownership interest in DemoSat-1 satellite (ERC-721 ExoAsset)",
+  "image":       "https://ciaranmcgonagle-personal.github.io/ExoAsset-Metadata/ExoLedger%20-%20DemoSat%20-%20ImageCard.png",
 
   "registeredParty": {
     "name": "TerraScan Ltd"
@@ -20,11 +20,10 @@
       ],
       "taxonomy": [
         { "source": "TokenStandard", "value": "ERC-721" },
-        { "source": "Blockchain", "value": "Polygon" },
-        { "source": "Network", "value": "Amoy Testnet" }
+        { "source": "Blockchain",     "value": "Polygon" },
+        { "source": "Network",        "value": "Amoy Testnet" }
       ],
-      "isExchangeListed": false,
-      ]
+      "isExchangeListed": false
     }
   },
   "legalAgreement": {
@@ -32,7 +31,7 @@
     "agreementType": "RegistryAgreement",
     "documentIdentification": [
       {
-        "documentId": "https://bafybeibpf6zmzyz24xhzwibglshwfhxtakx4pwvvzyy7mm2ix2ssc65vxm.ipfs.w3s.link/",
+        "documentId":   "https://bafybeibpf6zmzyz24xhzwibglshwfhxtakx4pwvvzyy7mm2ix2ssc65vxm.ipfs.w3s.link/",
         "documentType": "HASH"
       }
     ],
@@ -43,9 +42,9 @@
   },
   "registrationTimestamp": "2025-05-05T13:25:38.437693Z",
   "ownershipDetails": {
-    "ownershipType": "FractionalOwnership",
+    "ownershipType":     "FractionalOwnership",
     "interestHolderType": "Debtor",
-    "beneficialOwner": "DemoSat Ltd.",
+    "beneficialOwner":   "DemoSat Ltd.",
     "ownershipPercentage": 100,
     "associatedRights": [
       "RevenueRights",
@@ -53,30 +52,26 @@
       "InsuranceProceeds"
     ],
     "underlyingAssetDetails": {
-      "assetName": "DemoSat‑1",
-      "assetType": "Communications Satellite",
-      "ownerOperator": "TerraScan Ltd.",
-      "manufacturer": "Derry Satellite Technology Ltd.",
+      "assetName":               "DemoSat-1",
+      "assetType":               "Communications Satellite",
+      "ownerOperator":           "TerraScan Ltd.",
+      "manufacturer":            "Derry Satellite Technology Ltd.",
       "manufacturerSerialNumber": "SSTL-X9-0024",
-      "launchDate": "2025-03-30",
-      "launchVehicle": "Ariane 6",
-      "launchSite": "Centre Spatial Guyanais (CSG), Kourou, French Guiana",
-      "orbitType": "Geostationary Earth Orbit (GEO)",
-      "orbitalSlot": "80°W",
-      "inclination": "0.1°",
-      "longitude": "80.0°W",
-      "apogee": "35,786 km",
-      "perigee": "35,786 km",
-      "missionPurpose": "Telecommunications and data relay",
-      "frequencyBands": ["Ku-band", "Ka-band"],
-      "ttcControlParty": "ExoLedger Custody Inc.",
-      "expectedEndOfLife": "2040-12-31",
-      "registeredWith": [
-        "UK Space Agency",
-        "ITU",
-        "UNOOSA"
-      ],
-      "spaceAssetUniqueId": "UK2025-003-GEO-DemoSat1"
+      "launchDate":              "2025-03-30",
+      "launchVehicle":           "Ariane 6",
+      "launchSite":              "Centre Spatial Guyanais (CSG), Kourou, French Guiana",
+      "orbitType":               "Geostationary Earth Orbit (GEO)",
+      "orbitalSlot":             "80°W",
+      "inclination":             "0.1°",
+      "longitude":               "80.0°W",
+      "apogee":                  "35,786 km",
+      "perigee":                 "35,786 km",
+      "missionPurpose":          "Telecommunications and data relay",
+      "frequencyBands":          ["Ku-band","Ka-band"],
+      "ttcControlParty":         "ExoLedger Custody Inc.",
+      "expectedEndOfLife":       "2040-12-31",
+      "registeredWith":          ["UK Space Agency","ITU","UNOOSA"],
+      "spaceAssetUniqueId":      "UK2025-003-GEO-DemoSat1"
     }
   }
 }
