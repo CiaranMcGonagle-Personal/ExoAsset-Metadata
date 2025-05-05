@@ -1,5 +1,8 @@
 {
- "image": "https://bafybeia2zbbx5zxneladmexyjlokcr5glpai2i75tdtppvypvnzhrjw6tm.ipfs.w3s.link/ExoLedger%20-%20DemoSat%20-%20ImageCard.png",
+  "name":        "DemoSat-1",
+   "description": "Ownership interest in DemoSat-1 satellite (ERC-721 ExoAsset)",
+   "image":       "https://ciaranmcgonagle-personal.github.io/ExoAsset-Metadata/ExoLedger%20-%20DemoSat%20-%20ImageCard.png",
+ 
   "registeredParty": {
     "name": "TerraScan Ltd"
   },
