@@ -1,0 +1,79 @@
+{
+ "image": "https://bafybeia2zbbx5zxneladmexyjlokcr5glpai2i75tdtppvypvnzhrjw6tm.ipfs.w3s.link/ExoLedger%20-%20DemoSat%20-%20ImageCard.png",
+  "registeredParty": {
+    "name": "TerraScan Ltd"
+  },
+  "asset": {
+    "digitalAsset": {
+      "identifier": [
+        {
+          "identifier": "0x1ab51d9587d7c4fa3230910f65a0d42e9a99fb00",
+          "identifierType": "CONTRACT_ADDRESS"
+        },
+        {
+          "identifier": "1",
+          "identifierType": "TOKEN_ID"
+        }
+      ],
+      "taxonomy": [
+        { "source": "TokenStandard", "value": "ERC-721" },
+        { "source": "Blockchain", "value": "Polygon" },
+        { "source": "Network", "value": "Amoy Testnet" }
+      ],
+      "isExchangeListed": false,
+      ]
+    }
+  },
+  "legalAgreement": {
+    "agreementDate": "2025-04-30",
+    "agreementType": "RegistryAgreement",
+    "documentIdentification": [
+      {
+        "documentId": "https://bafybeibpf6zmzyz24xhzwibglshwfhxtakx4pwvvzyy7mm2ix2ssc65vxm.ipfs.w3s.link/",
+        "documentType": "HASH"
+      }
+    ],
+    "publisher": {
+      "partyReference": "ExoLedger Ltd."
+    },
+    "governingLaw": "England and Wales"
+  },
+  "registrationTimestamp": "2025-05-05T13:25:38.437693Z",
+  "ownershipDetails": {
+    "ownershipType": "FractionalOwnership",
+    "interestHolderType": "Debtor",
+    "beneficialOwner": "DemoSat Ltd.",
+    "ownershipPercentage": 100,
+    "associatedRights": [
+      "RevenueRights",
+      "ControlCodes",
+      "InsuranceProceeds"
+    ],
+    "underlyingAssetDetails": {
+      "assetName": "DemoSat‑1",
+      "assetType": "Communications Satellite",
+      "ownerOperator": "TerraScan Ltd.",
+      "manufacturer": "Derry Satellite Technology Ltd.",
+      "manufacturerSerialNumber": "SSTL-X9-0024",
+      "launchDate": "2025-03-30",
+      "launchVehicle": "Ariane 6",
+      "launchSite": "Centre Spatial Guyanais (CSG), Kourou, French Guiana",
+      "orbitType": "Geostationary Earth Orbit (GEO)",
+      "orbitalSlot": "80°W",
+      "inclination": "0.1°",
+      "longitude": "80.0°W",
+      "apogee": "35,786 km",
+      "perigee": "35,786 km",
+      "missionPurpose": "Telecommunications and data relay",
+      "frequencyBands": ["Ku-band", "Ka-band"],
+      "ttcControlParty": "ExoLedger Custody Inc.",
+      "expectedEndOfLife": "2040-12-31",
+      "registeredWith": [
+        "UK Space Agency",
+        "ITU",
+        "UNOOSA"
+      ],
+      "spaceAssetUniqueId": "UK2025-003-GEO-DemoSat1"
+    }
+  }
+}
